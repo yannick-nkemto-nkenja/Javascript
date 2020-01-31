@@ -31,5 +31,3 @@ const w = -78
 const d = +24
 console.log(q - w + d)
 
-
-
