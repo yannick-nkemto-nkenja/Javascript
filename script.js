@@ -42,21 +42,28 @@ console.log(newAddress)
 
 
 const FULL_NAME = `Nkemto Nkenja Yannick`
-const MYSTREET_ADDRESS = `Via Samone 2`
-const POSTAL_CODE = `10010`
-const TOWN_NAME = `Banchette`
-const WORK_EXPIRIENCE =`Help Cook, Cameriere, Chief Cook, Pizzaiolo `
-const STUDY = `Advance Level, licenza media`
-const LANGUAGES = `Italian, English, French, Spanish,`
-const SKILLS = `I work as an help cook at a restaurant called la Rava e la Fava
-where i was responsible for the first plate and the oven \n Then i work in a canteen of the Diocesan caritas of fraternity`
 
-const CV = `${FULL_NAME}
-${MYSTREET_ADDRESS}
-${POSTAL_CODE}, ${TOWN_NAME}
-${WORK_EXPIRIENCE}
-${STUDY}
-${LANGUAGES}
-${SKILLS}`
+const MYSTREET_ADDRESS = `Via Samone 2`
+
+const POSTAL_CODE = `10010`
+
+const TOWN_NAME = `Banchette`
+
+const WORK_EXPIRIENCE =`Help Cook, Cameriere, Chief Cook, Pizzaiolo `
+
+const STUDY = `Advance Level, licenza media`
+
+const LANGUAGES = `Italian, English, French, Spanish,`
+
+const SKILLS = `I work as an help cook at a restaurant called la Rava e la Fava
+where i was responsible for the first plate and the oven \nThen i work in a canteen of the Diocesan caritas of fraternity`
+
+const CV = `${FULL_NAME} 
+${MYSTREET_ADDRESS} 
+${POSTAL_CODE}, ${TOWN_NAME} 
+${WORK_EXPIRIENCE} 
+${STUDY} 
+${LANGUAGES} 
+${SKILLS}` 
 
 console.log (CV)
