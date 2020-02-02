@@ -47,7 +47,7 @@ const MYSTREET_ADDRESS = `Via Samone 2`
 
 const POSTAL_CODE = `10010`
 
-const TOWN_NAME = `Banchette`
+const TOWN_NAME = `Banchett e`
 
 const WORK_EXPIRIENCE =`Help Cook, Cameriere, Chief Cook, Pizzaiolo `
 
