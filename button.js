@@ -18,8 +18,8 @@
 //   return button;
 // }
 
-// // let row = buildRow(5);
-// // console.log(row);
+// let row = buildRow(5);
+// console.log(row);
 
 // let button = buildButton(3, 5);
 // console.log(button);
@@ -124,3 +124,32 @@ buildTriangle(rows)
     
 //   console.log(output);
 // }
+
+// create a function (like const f = function (n){}), and the function is call f.
+// the number of vertical lines must be determined by the input.
+// i've got to use no for/while/do-while; recursion only to loop.
+// g = space
+
+// const f = function (lines, n) {
+//   if (n === 0) {
+//     return "";
+//   }
+//   return lines + f (lines,n - 1);
+// };
+// const g = function (max) {
+//   const inner = function(n) {
+//     if (n > 1) {
+//       inner(n -1);
+//     }
+//     console.log(f(' ', max - n) + f('*', (n*2)-1));
+//   };
+//   inner (max);
+// };
+// g(5);
+
+//  function buildStar(n) {
+//    if (n === 0) return 0;
+//    buildStar(n - 1);
+//    return console.log( '*'. repeat(n));
+//  }
+//  buildStar(6)
